@@ -1,0 +1,43 @@
+.header{
+  text-align: center;
+  border: solid;
+}
+ul{
+  display: flex;
+  float: right;
+  margin-right: 42%;
+}
+li{
+  display: block;
+  padding: 5px;
+}
+
+.main{
+  border: solid;
+  padding: 50px;
+}
+.float_right{
+  display:inline;
+  float: right;
+  border:solid;
+  width: 50%
+}
+
+p{
+  padding: 10px;
+  font-size: 1em;
+  padding: 10px;
+}
+.navbar{
+  border: solid;
+  height: 50px;
+}
+
+.footer{
+  border:solid;
+  height: 200px;
+  padding: 50px;
+}
+@media screen and (min-width: 600px) {
+  background-color: green;
+}
